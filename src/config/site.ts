@@ -4,7 +4,7 @@ import type { NavItem } from "@/types/nav";
 export const SITE_INFO = {
   name: USER.displayName,
   url: process.env.APP_URL || "https://dzulhel.my",
-  ogImage: USER.ogImage,
+  ogImage: "/og-image.png",
   faviconIco: "/favicon.ico",
   faviconSvg: "/favicon.svg",
   appleTouchIcon: "/apple-touch-icon.png",
