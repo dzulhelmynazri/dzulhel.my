@@ -24,7 +24,7 @@ export function Brand() {
             </span>
           </div>
 
-          <div className="screen-line-after flex items-center justify-center pr-8 after:z-1">
+          <div className="screen-line-after flex items-center justify-center pr-16 after:z-1 sm:pr-8">
             <DzulhelmyMark className="h-8 w-auto sm:h-12" />
           </div>
 
@@ -34,7 +34,7 @@ export function Brand() {
             </span>
           </div>
 
-          <div className="screen-line-after flex items-center justify-center pl-26 after:z-1">
+          <div className="screen-line-after flex items-center justify-center pl-20 after:z-1 sm:pl-26">
             <DzulhelmyWordmark className="h-8 w-auto sm:h-10" />
           </div>
         </div>
