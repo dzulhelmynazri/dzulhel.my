@@ -1,14 +1,14 @@
-export function ChanhDaiMark(props: React.ComponentProps<"svg">) {
+export function DzulhelmyMark(props: React.ComponentProps<"svg">) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      viewBox="0 0 512 256"
+      viewBox="0 0 260 160"
       {...props}
     >
       <path
         fill="currentColor"
-        d="M192 256H64v-64h128v64ZM448 64H320v128h128v64H256V0h192v64ZM64 192H0V64h64v128ZM512 192h-64V64h64v128ZM192 64H64V0h128v64Z"
+        d="M23.8669 164.902V141.862H0.570938V69.9261H23.8669V46.6301H93.7549V0.294067H119.611V141.862H96.0589V164.902H23.8669ZM26.4269 139.302H93.4989V72.2301H26.4269V139.302ZM145.571 164.902V46.6301H241.059V69.9261H264.611V164.902H238.499V72.2301H171.427V164.902H145.571Z"
       />
     </svg>
   );

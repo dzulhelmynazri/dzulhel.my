@@ -47,11 +47,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "ncdai",
+      name: "Dzulhelmy Nazri",
       url: SITE_INFO.url,
     },
   ],
-  creator: "ncdai",
+  creator: "Dzulhelmy Nazri",
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -71,22 +71,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@iamncdai", // Twitter username
+    creator: "@dzulhel.my", // Twitter username
     images: [SITE_INFO.ogImage],
   },
   icons: {
     icon: [
       {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
+        url: SITE_INFO.faviconIco,
         sizes: "any",
       },
       {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
+        url: SITE_INFO.faviconSvg,
         type: "image/svg+xml",
       },
     ],
     apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
+      url: SITE_INFO.appleTouchIcon,
       type: "image/png",
       sizes: "180x180",
     },

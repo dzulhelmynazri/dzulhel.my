@@ -1,12 +1,12 @@
-# AI Agent Guidelines for chanhdai.com
+# AI Agent Guidelines for dzulhel.my
 
-This guide provides essential information for AI agents working with the chanhdai.com codebase - a Next.js portfolio, blog, and component registry website.
+This guide provides essential information for AI agents working with the dzulhel.my codebase - a Next.js portfolio, blog, and component registry website.
 
 ## Project Overview
 
-**chanhdai.com** is a minimal portfolio, component registry, and blog built with modern web technologies. It serves as:
+**dzulhel.my** is a minimal portfolio, component registry, and blog built with modern web technologies. It serves as:
 
-- Personal portfolio for Nguyen Chanh Dai (@ncdai)
+- Personal portfolio for Dzulhelmy Nazri (@ncdai)
 - Component registry using shadcn/ui system
 - Blog with MDX content
 - Showcase for custom React components

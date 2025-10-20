@@ -1,24 +1,24 @@
 {
-  "name": "chanhdai.com",
+  "name": "dzulhel.my",
   "version": "0.1.0",
-  "description": "A minimal portfolio, component registry, and blog.",
-  "homepage": "https://chanhdai.com",
+  "description": "A personal website and blog.",
+  "homepage": "https://dzulhel.my",
   "license": "MIT",
   "author": {
-    "name": "Nguyen Chanh Dai",
-    "email": "dai@chanhdai.com",
-    "url": "https://github.com/ncdai"
+    "name": "Dzulhelmy Bin Nazri",
+    "email": "dzulhelmynazri@gmail.com",
+    "url": "https://github.com/dzulhelmynazri"
   },
   "contributors": [
     {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
-      "url": "https://github.com/ncdai"
+      "name": "Dzulhelmy Bin Nazri",
+      "email": "dzulhelmynazri@gmail.com",
+      "url": "https://github.com/dzulhelmynazri"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ncdai/chanhdai.com.git"
+    "url": "git+https://github.com/dzulhelmynazri/dzulhel.my.git"
   },
   "scripts": {
     "dev": "next dev -p 1408 --turbopack",
@@ -69,7 +69,7 @@
     "swr": "^2.3.3",
     "tailwind-merge": "^3.3.1",
     "vcard-creator": "^0.7.2",
-    "zod": "^3.24.2"
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",

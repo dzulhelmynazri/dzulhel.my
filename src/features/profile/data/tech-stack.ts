@@ -1,183 +1,252 @@
+import { BaseUI } from "../components/techstack/base-ui";
+import { BetterAuth } from "../components/techstack/better-auth";
+import { CSS } from "../components/techstack/css";
+import { dotenv } from "../components/techstack/dotenv";
+import { Figma } from "../components/techstack/figma";
+import { Git } from "../components/techstack/git";
+import { GitHub } from "../components/techstack/github";
+import { HTML } from "../components/techstack/html";
+import { JavaScript } from "../components/techstack/javascript";
+import { KiboUI } from "../components/techstack/kibo-ui";
+import { Markdown } from "../components/techstack/markdown";
+import { Neon } from "../components/techstack/neon";
+import { Nextjs } from "../components/techstack/nextjs";
+import { nuqs } from "../components/techstack/nuqs";
+import { Polar } from "../components/techstack/polar";
+import { PostgreSQL } from "../components/techstack/postgresql";
+import { Prettier } from "../components/techstack/prettier";
+import { Prisma } from "../components/techstack/prisma";
+import { RadixUI } from "../components/techstack/radix-ui";
+import { Resend } from "../components/techstack/resend";
+import { shadcnui } from "../components/techstack/shadcn-ui";
+import { Supabase } from "../components/techstack/supabase";
+import { SWR } from "../components/techstack/swr";
+import { TailwindCSS } from "../components/techstack/tailwindcss";
+import { Turbopack } from "../components/techstack/turbopack";
+import { Turborepo } from "../components/techstack/turborepo";
+import { TypeScript } from "../components/techstack/typescript";
+import { Vercel } from "../components/techstack/vercel";
+import { Zod } from "../components/techstack/zod";
 import type { TechStack } from "../types/tech-stack";
 
 export const TECH_STACK: TechStack[] = [
+  // 🧩 Framework
   {
-    key: "typescript",
-    title: "TypeScript",
-    href: "https://www.typescriptlang.org/",
-    categories: ["Language"],
+    icon: Nextjs,
+    title: "Next.js",
+    href: "https://nextjs.org/",
+    categories: ["Framework"],
   },
+
+  // 💬 Language
   {
-    key: "js",
+    icon: JavaScript,
     title: "JavaScript",
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     categories: ["Language"],
   },
   {
-    key: "python",
-    title: "Python",
-    href: "https://www.python.org/",
+    icon: TypeScript,
+    title: "TypeScript",
+    href: "https://www.typescriptlang.org/",
     categories: ["Language"],
   },
+
+  // 🧾 Markup
   {
-    key: "php",
-    title: "PHP",
-    href: "https://www.php.net/",
-    categories: ["Language"],
+    icon: HTML,
+    title: "HTML",
+    href: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    categories: ["Markup"],
+  },
+
+  // 🎨 Styling
+  {
+    icon: CSS,
+    title: "CSS",
+    href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    categories: ["Styling"],
   },
   {
-    key: "java",
-    title: "Java",
-    href: "https://www.java.com/",
-    categories: ["Language"],
-  },
-  {
-    key: "nodejs",
-    title: "Node.js",
-    href: "https://nodejs.org/",
-    categories: ["Runtime Environment"],
-  },
-  {
-    key: "bun",
-    title: "Bun",
-    href: "https://bun.sh/",
-    categories: ["Runtime Environment"],
-  },
-  {
-    key: "react",
-    title: "React",
-    href: "https://react.dev/",
-    categories: ["Library", "UI Library"],
-  },
-  {
-    key: "nextjs2",
-    title: "Next.js",
-    href: "https://nextjs.org/",
-    categories: ["Framework"],
-    theme: true,
-  },
-  {
-    key: "tailwindcss",
+    icon: TailwindCSS,
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
-    categories: ["Framework"],
+    categories: ["Styling"],
+  },
+
+  {
+    icon: Markdown,
+    title: "Markdown",
+    href: "https://www.markdownguide.org/",
+    categories: ["Markup"],
+  },
+
+  // 🔐 Authentication
+  {
+    icon: BetterAuth,
+    title: "better-auth",
+    href: "https://better-auth.com/",
+    categories: ["Authentication"],
+    theme: true,
+  },
+
+  // 🧱 Build Tool
+  {
+    icon: Turbopack,
+    title: "Turbopack",
+    href: "https://turbo.build/repo/docs/reference/configuration#turbopack",
+    categories: ["Build Tool"],
   },
   {
-    key: "shadcn-ui",
-    title: "shadcn/ui",
-    href: "https://ui.shadcn.com/",
-    categories: ["Library", "Component Library"],
+    icon: Turborepo,
+    title: "Turborepo",
+    href: "https://turborepo.org/",
+    categories: ["Build Tool"],
+  },
+
+  // 🗃️ Database
+  {
+    icon: Neon,
+    title: "Neon",
+    href: "https://neon.tech/",
+    categories: ["Database"],
     theme: true,
   },
   {
-    key: "radixui",
+    icon: PostgreSQL,
+    title: "PostgreSQL",
+    href: "https://www.postgresql.org/",
+    categories: ["Database"],
+  },
+  {
+    icon: Prisma,
+    title: "Prisma",
+    href: "https://prisma.io/",
+    categories: ["Database"],
+  },
+  {
+    icon: Supabase,
+    title: "Supabase",
+    href: "https://supabase.com/",
+    categories: ["Database"],
+    theme: true,
+  },
+
+  // 🎨 Design System
+  {
+    icon: BaseUI,
+    title: "Base UI",
+    href: "https://baseui.org/",
+    categories: ["Design System"],
+  },
+  {
+    icon: KiboUI,
+    title: "Kibo UI",
+    href: "https://kibo-ui.com/",
+    categories: ["Design System"],
+  },
+  {
+    icon: RadixUI,
     title: "Radix UI",
     href: "https://www.radix-ui.com/",
-    categories: ["Library", "Component Library"],
+    categories: ["Design System"],
+  },
+  {
+    icon: shadcnui,
+    title: "shadcn/ui",
+    href: "https://ui.shadcn.com/",
+    categories: ["Design System"],
+  },
+
+  // 🧭 Data Fetching
+  {
+    icon: SWR,
+    title: "SWR",
+    href: "https://swr.vercel.app/",
+    categories: ["Data Fetching"],
     theme: true,
   },
+
+  // 🌿 Environment Variables
   {
-    key: "motion",
-    title: "Motion",
-    href: "https://motion.dev/",
-    categories: ["Library", "Animation"],
+    icon: dotenv,
+    title: ".ENV",
+    href: "https://www.dotenv.org/",
+    categories: ["Environment Variables"],
   },
+
+  // 📧 Email
   {
-    key: "mobx-state-tree",
-    title: "MobX-State-Tree",
-    href: "https://mobx-state-tree.js.org/",
-    categories: ["State Management"],
+    icon: Resend,
+    title: "Resend",
+    href: "https://resend.com/",
+    categories: ["Email"],
   },
+
+  // 🧹 Formatting
   {
-    key: "redux",
-    title: "Redux",
-    href: "https://redux.js.org/",
-    categories: ["State Management"],
-  },
-  {
-    key: "antd",
-    title: "Ant Design",
-    href: "https://ant.design/",
-    categories: ["Library", "UI Library"],
-  },
-  {
-    key: "react-router",
-    title: "React Router",
-    href: "https://reactrouter.com/",
-    categories: ["Library", "Navigation"],
+    icon: Prettier,
+    title: "Prettier",
+    href: "https://prettier.io/",
+    categories: ["Formatting"],
     theme: true,
   },
+
+  // ☁️ Hosting
   {
-    key: "react-navigation",
-    title: "React Navigation",
-    href: "https://reactnavigation.org/",
-    categories: ["Library", "Navigation"],
+    icon: Vercel,
+    title: "Vercel",
+    href: "https://vercel.com/",
+    categories: ["Hosting"],
   },
+
+  // 💳 Payment Gateway
   {
-    key: "loopback",
-    title: "LoopBack",
-    href: "https://loopback.io/",
-    categories: ["Framework"],
+    icon: Polar,
+    title: "Polar",
+    href: "https://polar.sh/",
+    categories: ["Payment Gateway"],
+    theme: true,
   },
+
+  // 🧭 Repository
   {
-    key: "laravel",
-    title: "Laravel",
-    href: "https://laravel.com/",
-    categories: ["Framework"],
+    icon: GitHub,
+    title: "GitHub",
+    href: "https://github.com/",
+    categories: ["Repository"],
   },
+
+  // 🚦 Routing
   {
-    key: "git",
-    title: "Git",
-    href: "https://git-scm.com/",
-    categories: ["Version Control"],
+    icon: nuqs,
+    title: "Nuqs",
+    href: "https://nuqs.dev/",
+    categories: ["Routing"],
+    theme: true,
   },
+
+  // 🧠 Tools
   {
-    key: "docker",
-    title: "Docker",
-    href: "https://www.docker.com/",
-    categories: ["Containerization"],
-  },
-  {
-    key: "mysql",
-    title: "MySQL",
-    href: "https://www.mysql.com/",
-    categories: ["Database"],
-  },
-  {
-    key: "mongodb",
-    title: "MongoDB",
-    href: "https://www.mongodb.com/",
-    categories: ["Database"],
-  },
-  {
-    key: "redis",
-    title: "Redis",
-    href: "https://redis.io/",
-    categories: ["Database"],
-  },
-  {
-    key: "figma",
+    icon: Figma,
     title: "Figma",
     href: "https://www.figma.com/",
     categories: ["Tools", "Design"],
   },
+
+  // 🔍 Validation
   {
-    key: "ps",
-    title: "Adobe Photoshop",
-    href: "https://www.adobe.com/vn_en/products/photoshop.html",
-    categories: ["Tools", "Design"],
+    icon: Zod,
+    title: "Zod",
+    href: "https://zod.dev/",
+    categories: ["Validation"],
   },
+
+  // 🌀 Version Control
   {
-    key: "chatgpt",
-    title: "ChatGPT",
-    href: "https://chatgpt.com/",
-    categories: ["Tools", "AI"],
-    theme: true,
+    icon: Git,
+    title: "Git",
+    href: "https://git-scm.com/",
+    categories: ["Version Control"],
   },
-  // {
-  //   key: "zalo-mini-app",
-  //   title: "Zalo Mini App",
-  //   href: "https://mini.zalo.me/",
-  //   categories: ["Other"],
-  // },
 ];

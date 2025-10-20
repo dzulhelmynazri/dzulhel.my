@@ -36,8 +36,8 @@ import { useSound } from "@/hooks/use-sound";
 import { cn } from "@/lib/utils";
 import { copyText } from "@/utils/copy";
 
-import { ChanhDaiMark, getMarkSVG } from "./chanhdai-mark";
-import { getWordmarkSVG } from "./chanhdai-wordmark";
+import { DzulhelmyMark, getMarkSVG } from "./dzulhelmy-mark";
+import { getWordmarkSVG } from "./dzulhelmy-wordmark";
 import { Icons } from "./icons";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
@@ -56,7 +56,7 @@ const MENU_LINKS: CommandLinkItem[] = [
   {
     title: "Daifolio",
     href: "/",
-    icon: ChanhDaiMark,
+    icon: DzulhelmyMark,
   },
   {
     title: "Blog",
@@ -111,7 +111,7 @@ const DAIFOLIO_LINKS: CommandLinkItem[] = [
 const SOCIAL_LINK_ITEMS: CommandLinkItem[] = SOCIAL_LINKS.map((item) => ({
   title: item.title,
   href: item.href,
-  iconImage: item.icon,
+  icon: item.icon,
   openInNewTab: true,
 }));
 
@@ -288,7 +288,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
                 );
               }}
             >
-              <ChanhDaiMark />
+              <DzulhelmyMark />
               Copy Mark as SVG
             </CommandItem>
 
@@ -449,7 +449,7 @@ function CommandMenuFooter() {
       <div className="flex h-10" />
 
       <div className="absolute inset-x-0 bottom-0 flex h-10 items-center justify-between gap-2 border-t bg-zinc-100/30 px-4 text-xs font-medium dark:bg-zinc-800/30">
-        <ChanhDaiMark className="size-6 text-muted-foreground" aria-hidden />
+        <DzulhelmyMark className="size-6 text-muted-foreground" aria-hidden />
 
         <div className="flex shrink-0 items-center gap-2">
           <span>{ENTER_ACTION_LABELS[selectedCommandKind]}</span>

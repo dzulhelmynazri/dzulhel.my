@@ -3,8 +3,11 @@ import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://chanhdai.com",
+  url: process.env.APP_URL || "https://dzulhel.my",
   ogImage: USER.ogImage,
+  faviconIco: "/favicon.ico",
+  faviconSvg: "/favicon.svg",
+  appleTouchIcon: "/apple-touch-icon.png",
   description: USER.bio,
   keywords: USER.keywords,
 };
@@ -16,25 +19,26 @@ export const META_THEME_COLORS = {
 
 export const MAIN_NAV: NavItem[] = [
   {
-    title: "Daifolio",
+    title: "Myself",
     href: "/",
   },
   {
     title: "Blog",
     href: "/blog",
   },
-  {
-    title: "Components",
-    href: "/components",
-  },
+  // {
+  //   title: "Components",
+  //   href: "/components",
+  // },
 ];
 
-export const GITHUB_USERNAME = "ncdai";
-export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
+export const GITHUB_USERNAME = "dzulhelmynazri";
+export const SOURCE_CODE_GITHUB_REPO = "dzulhelmynazri/dzulhel.my";
+export const SOURCE_CODE_GITHUB_URL =
+  "https://github.com/dzulhelmynazri/dzulhel.myy";
 
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "dzulhel.my",
   utm_medium: "portfolio_website",
   utm_campaign: "referral",
 };

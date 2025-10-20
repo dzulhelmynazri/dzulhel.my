@@ -5,6 +5,9 @@ import type { SocialLink } from "@/features/profile/types/social-links";
 import { cn } from "@/lib/utils";
 
 export function SocialLinkItem({ icon, title, description, href }: SocialLink) {
+  const isComponent = typeof icon === "function";
+  const IconComponent = isComponent ? icon : null;
+
   return (
     <a
       className={cn(
@@ -17,15 +20,19 @@ export function SocialLinkItem({ icon, title, description, href }: SocialLink) {
       rel="noopener"
     >
       <div className="relative size-12 shrink-0">
-        <Image
-          className="rounded-xl"
-          src={icon}
-          alt={title}
-          width={48}
-          height={48}
-          quality={100}
-          unoptimized
-        />
+        {isComponent && IconComponent ? (
+          <IconComponent className="absolute top-1/2 left-1/2 size-8 -translate-x-1/2 -translate-y-1/2 rounded-lg" />
+        ) : (
+          <Image
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg"
+            src={icon as unknown as string}
+            alt={title}
+            width={40}
+            height={40}
+            quality={100}
+            unoptimized
+          />
+        )}
         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-black/10 ring-inset dark:ring-white/10" />
       </div>
 

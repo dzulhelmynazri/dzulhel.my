@@ -1,61 +1,45 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Dzulhelmy",
+  lastName: "Nazri",
+  displayName: "Dzulhelmy Nazri",
+  username: "dzulhelmynazri",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "The only way to do great work is to love what you do.",
+    "But I hate to do what I try to love.",
+    "Product Interface Engineer",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Cyberjaya, Malaysia",
+  phoneNumber: "MDE3NTExNjExNQ==", // E.01 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "ZHp1bGhlbG15bmF6cmlAZ21haWwuY29t", // base64 encoded
+  website: "https://dzulhel.my",
+  jobTitle: "Product Interface Engineer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
+      title: "Product Interface Engineer",
+      company: "Mechanikos Sdn Bhd",
+      website: "https://mechanikos.com",
     },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
-    },
+    // {
+    //   title: "Founder",
+    //   company: "Quaric",
+    //   website: "https://quaric.com",
+    // },
   ],
   about: `
-Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, World! I am Dzulhelmy Bin Nazri — a Frontend Engineer passionate about creating clean UIs and writing clean code. I love to learn new technologies to ease my Developer Experience (DX).
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
-
-One of my key projects, [ZaDark](https://zadark.com), launched in 2022, enhances the Zalo experience on PC and Web, surpassing 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark) and reaching 20k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) (as of Sep 2025).
-
-I'm also the creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com) — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. It has earned 4k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker) and was selected for [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort.
+I'm currently working at [Mechanikos Sdn Bhd](https://mechanikos.com) as a Product Interface Engineer. I'm responsible for creating the user interface for the Mechanikos's projects.
 
 Let's connect and collaborate!
   `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1759581475",
-  namePronunciationUrl: "/audio/chanhdai.mp3",
-  keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
-  ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  avatar: "/dzulhelmy.webp",
+  ogImage: "/og-image.png",
+  namePronunciationUrl: "/audio/dzulhelmy.mp3",
+  keywords: ["dzulhelmy", "dzulhelmy nazri"],
+  dateCreated: "2025-10-31", // YYYY-MM-DD
 };

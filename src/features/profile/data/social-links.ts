@@ -1,40 +1,32 @@
+import { GitHub } from "../components/social-links/github";
+import { LinkedIn } from "../components/social-links/linkedin";
+import { Threads } from "../components/social-links/threads";
+import { TikTok } from "../components/social-links/tiktok";
 import type { SocialLink } from "../types/social-links";
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/linkedin.webp?t=1759581475",
+    icon: LinkedIn,
     title: "LinkedIn",
-    description: "ncdai",
-    href: "https://linkedin.com/in/ncdai",
+    description: "Dzulhelmy Bin Nazri",
+    href: "https://linkedin.com/in/dzulhelmynazri",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/github.webp?t=1759581475",
+    icon: GitHub,
     title: "GitHub",
-    description: "ncdai",
-    href: "https://github.com/ncdai",
+    description: "Dzulhelmy Nazri",
+    href: "https://github.com/dzulhelmynazri",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/x.webp?t=1759581475",
-    title: "X (Formerly Twitter)",
-    description: "@iamncdai",
-    href: "https://x.com/iamncdai",
+    icon: Threads,
+    title: "threads",
+    description: "@dzulhel.myy",
+    href: "https://threads.net/@dzulhel.myy",
   },
   {
-    icon: "https://assets.chanhdai.com/images/link-icons/dailydotdev.webp?t=1759581475",
-    title: "daily.dev",
-    description: "@ncdai",
-    href: "https://app.daily.dev/ncdai",
-  },
-  {
-    icon: "https://assets.chanhdai.com/images/link-icons/zalo.webp?t=1759581475",
-    title: "Zalo",
-    description: "Quaric",
-    href: "https://zalo.me/2353934240045322830",
-  },
-  {
-    icon: "https://assets.chanhdai.com/images/link-icons/youtube.webp?t=1759581475",
-    title: "YouTube",
-    description: "@ncdai",
-    href: "https://www.youtube.com/@ncdai",
+    icon: TikTok,
+    title: "TikTok",
+    description: "@dzulhelmynazri",
+    href: "https://tiktok.com/@dzulhelmynazri",
   },
 ];
