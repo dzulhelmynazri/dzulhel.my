@@ -1,3 +1,5 @@
+import dedent from "dedent";
+
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
@@ -24,18 +26,11 @@ export const USER: User = {
       company: "Mechanikos Sdn Bhd",
       website: "https://mechanikos.com",
     },
-    // {
-    //   title: "Founder",
-    //   company: "Quaric",
-    //   website: "https://quaric.com",
-    // },
   ],
-  about: `
-Hello, World! I am Dzulhelmy Bin Nazri — a Frontend Engineer passionate about creating clean UIs and writing clean code. I love to learn new technologies to ease my Developer Experience (DX).
+  about: dedent`
+      Hello, World! I am Dzulhelmy Bin Nazri — a Frontend Engineer passionate about creating clean UIs and writing clean code. I love to learn new technologies to ease my Developer Experience (DX).
 
-I'm currently working at [Mechanikos Sdn Bhd](https://mechanikos.com) as a Product Interface Engineer. I'm responsible for creating the user interface for the Mechanikos's projects.
-
-Let's connect and collaborate!
+      I'm currently working at [Mechanikos Sdn Bhd](https://mechanikos.com) as a Product Interface Engineer. I'm responsible for creating the user interface for the Mechanikos's projects.
   `,
   avatar: "/dzulhelmy.webp",
   ogImage: "/og-image.png",
