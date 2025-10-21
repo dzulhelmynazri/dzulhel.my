@@ -1,5 +1,7 @@
 import { BrandContextMenu } from "@/components/brand-context-menu";
-import { DzulhelmyMark } from "@/components/dzulhelmy-mark";
+// import { DzulhelmyMark } from "@/components/dzulhelmy-mark";
+// import { AnimatedPrompt } from "@/components/keycap/animated-prompt";
+import { DNKeycap } from "@/components/keycap/dn-keycap";
 import { cn } from "@/lib/utils";
 
 export function ProfileCover() {
@@ -13,10 +15,9 @@ export function ProfileCover() {
           "bg-black/0.75 bg-[radial-gradient(var(--pattern-foreground)_1px,transparent_0)] bg-size-[10px_10px] bg-center [--pattern-foreground:var(--color-zinc-950)]/5 dark:bg-white/0.75 dark:[--pattern-foreground:var(--color-white)]/5"
         )}
       >
-        <DzulhelmyMark
-          id="js-cover-mark"
-          className="h-20 w-24 sm:h-16 sm:w-32"
-        />
+        <div className="mt-[-50px] flex size-40 sm:mt-[-80px]">
+          <DNKeycap />
+        </div>
       </div>
     </BrandContextMenu>
   );

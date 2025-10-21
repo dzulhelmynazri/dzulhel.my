@@ -11,9 +11,9 @@ export const USER: User = {
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
-    "The only way to do great work is to love what you do.",
-    "But I hate to do what I try to love.",
-    "Product Interface Engineer",
+    "Life is hard for two reasons. Either",
+    "because you're leaving your comfort",
+    "zone or because you staying in it.",
   ],
   address: "Cyberjaya, Malaysia",
   phoneNumber: "MDE3NTExNjExNQ==", // E.01 format, base64 encoded (https://t.io.vn/base64-string-converter)
