@@ -3,10 +3,11 @@ import type { ProfilePage as PageSchema, WithContext } from "schema-dts";
 
 import { About } from "@/features/profile/components/about";
 // import { Awards } from "@/features/profile/components/awards";
-// import { Blog } from "@/features/profile/components/blog";
+import { Blog } from "@/features/profile/components/blog";
 import { Brand } from "@/features/profile/components/brand";
 // import { Certifications } from "@/features/profile/components/certifications";
-// import { Experiences } from "@/features/profile/components/experiences";
+import { Educations } from "@/features/profile/components/educations";
+import { Experiences } from "@/features/profile/components/experiences";
 import { GitHubContributions } from "@/features/profile/components/github-contributions";
 import { Overview } from "@/features/profile/components/overview";
 import { Productivity } from "@/features/profile/components/productivity/productivity";
@@ -51,11 +52,14 @@ export default function Page() {
         <Productivity />
         <Separator />
 
-        {/* <Blog /> */}
-        {/* <Separator /> */}
+        <Experiences />
+        <Separator />
 
-        {/* <Experiences /> */}
-        {/* <Separator /> */}
+        <Educations />
+        <Separator />
+
+        <Blog />
+        <Separator />
 
         {/* <Projects /> */}
         {/* <Separator /> */}

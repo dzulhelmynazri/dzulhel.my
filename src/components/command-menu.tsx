@@ -3,9 +3,10 @@
 import { useCommandState } from "cmdk";
 import type { LucideProps } from "lucide-react";
 import {
-  // BriefcaseBusinessIcon,
+  BriefcaseBusinessIcon,
   CircleUserIcon,
   CornerDownLeftIcon,
+  GraduationCapIcon,
   // DownloadIcon,
   LetterTextIcon,
   MoonStarIcon,
@@ -88,11 +89,16 @@ const MYSELF_LINKS: CommandLinkItem[] = [
     href: "/#productivity",
     icon: Sprout,
   },
-  // {
-  //   title: "Experience",
-  //   href: "/#experience",
-  //   icon: BriefcaseBusinessIcon,
-  // },
+  {
+    title: "Experience",
+    href: "/#experience",
+    icon: BriefcaseBusinessIcon,
+  },
+  {
+    title: "Educations",
+    href: "/#educations",
+    icon: GraduationCapIcon,
+  },
   // {
   //   title: "Projects",
   //   href: "/#projects",
