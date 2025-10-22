@@ -79,17 +79,19 @@ export function ProjectItem({
                 </dl>
               </div>
 
-              <SimpleTooltip content="Open Project Link">
-                <a
-                  className="relative flex size-6 shrink-0 items-center justify-center text-muted-foreground after:absolute after:-inset-2 hover:text-foreground"
-                  href={addQueryParams(project.link, UTM_PARAMS)}
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <LinkIcon className="pointer-events-none size-4" />
-                  <span className="sr-only">Open Project Link</span>
-                </a>
-              </SimpleTooltip>
+              {project.link && (
+                <SimpleTooltip content="Open Project Link">
+                  <a
+                    className="relative flex size-6 shrink-0 items-center justify-center text-muted-foreground after:absolute after:-inset-2 hover:text-foreground"
+                    href={addQueryParams(project.link, UTM_PARAMS)}
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <LinkIcon className="pointer-events-none size-4" />
+                    <span className="sr-only">Open Project Link</span>
+                  </a>
+                </SimpleTooltip>
+              )}
 
               <div
                 className="shrink-0 text-muted-foreground [&_svg]:size-4"

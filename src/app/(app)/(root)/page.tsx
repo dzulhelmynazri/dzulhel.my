@@ -5,7 +5,7 @@ import { About } from "@/features/profile/components/about";
 // import { Awards } from "@/features/profile/components/awards";
 import { Blog } from "@/features/profile/components/blog";
 import { Brand } from "@/features/profile/components/brand";
-// import { Certifications } from "@/features/profile/components/certifications";
+import { Certifications } from "@/features/profile/components/certifications";
 import { Educations } from "@/features/profile/components/educations";
 import { Experiences } from "@/features/profile/components/experiences";
 import { GitHubContributions } from "@/features/profile/components/github-contributions";
@@ -13,7 +13,7 @@ import { Overview } from "@/features/profile/components/overview";
 import { Productivity } from "@/features/profile/components/productivity/productivity";
 import { ProfileCover } from "@/features/profile/components/profile-cover";
 import { ProfileHeader } from "@/features/profile/components/profile-header";
-// import { Projects } from "@/features/profile/components/projects";
+import { Projects } from "@/features/profile/components/projects";
 import { SocialLinks } from "@/features/profile/components/social-links";
 import { TechStack } from "@/features/profile/components/techstack/tech-stack";
 import { USER } from "@/features/profile/data/user";
@@ -58,17 +58,17 @@ export default function Page() {
         <Educations />
         <Separator />
 
-        <Blog />
+        <Projects />
         <Separator />
 
-        {/* <Projects /> */}
-        {/* <Separator /> */}
+        {/* <Awards />
+        <Separator /> */}
 
-        {/* <Awards /> */}
-        {/* <Separator /> */}
+        <Certifications />
+        <Separator />
 
-        {/* <Certifications /> */}
-        {/* <Separator /> */}
+        <Blog />
+        <Separator />
 
         <Brand />
         <Separator />

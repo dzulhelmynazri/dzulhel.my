@@ -15,7 +15,7 @@ export const AnimatedPromptRight = () => {
         <span className="hidden md:inline">
           PRESS{" "}
           <kbd className="inline-flex size-5 max-h-full items-center justify-center rounded border bg-muted px-1 font-mono text-[0.625rem] font-medium text-foreground">
-            T
+            D
           </kbd>{" "}
           NOW
         </span>

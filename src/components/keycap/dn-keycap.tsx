@@ -130,7 +130,7 @@ export const DNKeycap: React.FC = () => {
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key.toLowerCase() === "t" && !isNavigating) {
+      if (e.key.toLowerCase() === "d" && !isNavigating) {
         add(e.key);
         stop();
         play();
@@ -138,7 +138,7 @@ export const DNKeycap: React.FC = () => {
     };
 
     const handleKeyUp = (e: KeyboardEvent) => {
-      if (e.key.toLowerCase() === "t" && !isNavigating) {
+      if (e.key.toLowerCase() === "d" && !isNavigating) {
         remove(e.key);
         handleNavigation();
       }
@@ -214,7 +214,7 @@ export const DNKeycap: React.FC = () => {
   return (
     <div className={cn("keyboard", "relative")}>
       <Column>
-        <Row>{keys(["t"])}</Row>
+        <Row>{keys(["d"])}</Row>
       </Column>
       <div className="cover" />
       <button

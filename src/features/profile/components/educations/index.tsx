@@ -8,7 +8,7 @@ export function Educations() {
   return (
     <Panel id="educations">
       <PanelHeader>
-        <PanelTitle>Educations</PanelTitle>
+        <PanelTitle>Education</PanelTitle>
       </PanelHeader>
 
       <div className="pr-2 pl-4">

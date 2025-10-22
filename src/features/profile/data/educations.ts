@@ -60,7 +60,7 @@ export const EDUCATIONS: Education[] = [
           "Fundraising Basics",
           "Team Execution",
         ],
-        isExpanded: true,
+        isExpanded: false,
       },
     ],
     isCurrentInstitution: false,

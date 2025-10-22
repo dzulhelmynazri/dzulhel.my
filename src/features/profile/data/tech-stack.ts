@@ -9,6 +9,7 @@ import { HTML } from "../components/techstack/html";
 import { JavaScript } from "../components/techstack/javascript";
 import { KiboUI } from "../components/techstack/kibo-ui";
 import { Markdown } from "../components/techstack/markdown";
+import { Motion } from "../components/techstack/motion";
 import { Neon } from "../components/techstack/neon";
 import { Nextjs } from "../components/techstack/nextjs";
 import { nuqs } from "../components/techstack/nuqs";
@@ -72,6 +73,12 @@ export const TECH_STACK: TechStack[] = [
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
     categories: ["Styling"],
+  },
+  {
+    icon: Motion,
+    title: "Motion",
+    href: "https://motion.dev/",
+    categories: ["Animation"],
   },
 
   {
