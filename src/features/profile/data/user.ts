@@ -9,7 +9,7 @@ export const USER: User = {
   username: "dzulhelmynazri",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "I try to love something I hate.",
   flipSentences: [
     "Life is hard for two reasons. Either",
     "because you're leaving your comfort",
