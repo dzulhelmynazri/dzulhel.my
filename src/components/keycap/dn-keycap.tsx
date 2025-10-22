@@ -161,7 +161,7 @@ export const DNKeycap: React.FC = () => {
     setTimeout(() => {
       remove(char);
       handleNavigation();
-    }, 100);
+    }, 1000);
   };
 
   const handleMouseDown = (char: string) => {
