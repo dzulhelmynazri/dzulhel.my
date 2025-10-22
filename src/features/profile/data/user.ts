@@ -31,6 +31,8 @@ export const USER: User = {
       Hello, World! I am Dzulhelmy Bin Nazri — a Frontend Engineer passionate about creating clean UIs and writing clean code. I love to learn new technologies to ease my Developer Experience (DX).
 
       I'm currently working at [Mechanikos Sdn Bhd](https://mechanikos.com) as a Product Interface Engineer. I'm responsible for creating the user interface for the Mechanikos's projects.
+      
+      Now, I’m available for **one freelance project** in UI/UX Design and Frontend Development. Don’t hesitate to contact me if you have any questions or would like to discuss a project.
   `,
   avatar: "/dzulhelmy.webp",
   ogImage: "/og-image.png",
