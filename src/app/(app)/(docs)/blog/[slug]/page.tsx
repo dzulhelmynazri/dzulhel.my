@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
-import { getTableOfContents } from "fumadocs-core/server";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
+import { getTableOfContents } from "@/lib/get-table-of-contents";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";

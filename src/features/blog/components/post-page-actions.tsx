@@ -129,13 +129,13 @@ export function ViewOptions({
         })}`,
         icon: Icons.claude,
       },
-      {
-        title: "Open in Scira AI",
-        href: `https://scira.ai/?${new URLSearchParams({
-          q,
-        })}`,
-        icon: Icons.scira,
-      },
+      // {
+      //   title: "Open in Scira AI",
+      //   href: `https://scira.ai/?${new URLSearchParams({
+      //     q,
+      //   })}`,
+      //   icon: Icons.scira,
+      // },
     ];
 
     if (isComponent) {
