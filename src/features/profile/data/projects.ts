@@ -5,7 +5,7 @@ import type { Project } from "../types/projects";
 export const PROJECTS: Project[] = [
   {
     id: "teamflow",
-    title: "TeamFlow (Slack + AI) [In Progress]",
+    title: "TeamFlow [In Progress]",
     period: {
       start: "10.2025",
     },
@@ -26,16 +26,16 @@ export const PROJECTS: Project[] = [
       "Arcjet",
     ],
     description: dedent`
-      ### Building an AI-Powered Team Chat
+      ### It's a combination of Slack + AI
 
       I wanted to explore how **AI** could enhance **real-time team communication**.  
       So I decided to build an **MVP Slack + AI**.
 
       The app is built using **Next.js (App Router v15)**, styled with **Shadcn** and **TailwindCSS v4**.  
-      **Kinde** handles authentication and billing, **OpenAI** powers AI responses, and **oRPC** manages structured API communication.
+      **Kinde** handles authentication and billing, **OpenAI** powers AI responses and **oRPC** manages structured API communication.
 
       Under the hood, I’ll implement:
-      - **Infinite Scroll** for chat messages
+      - **Reverse Infinite Scroll** for chat messages
       - **Middleware** for request validation and security  
       - **Data Transfer Objects (DTO)** for clean and consistent data flow  
       - **Data Access Layer (DAL)** for safe database interactions using **Neon Postgres**
