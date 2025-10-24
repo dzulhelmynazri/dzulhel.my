@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
       "Prisma ORM",
       "Zod",
       "React Hook Form",
-      "UploadThing",
+      "UploadAThing",
       "Neon PostgreSQL",
       "OpenAI",
       "oRPC",
@@ -35,6 +35,7 @@ export const PROJECTS: Project[] = [
       **Kinde** handles authentication and billing, **OpenAI** powers AI responses, and **oRPC** manages structured API communication.
 
       Under the hood, I’ll implement:
+      - **Infinite Scroll** for chat messages
       - **Middleware** for request validation and security  
       - **Data Transfer Objects (DTO)** for clean and consistent data flow  
       - **Data Access Layer (DAL)** for safe database interactions using **Neon Postgres**
