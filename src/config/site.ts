@@ -35,7 +35,7 @@ export const MAIN_NAV: NavItem[] = [
 export const GITHUB_USERNAME = "dzulhelmynazri";
 export const SOURCE_CODE_GITHUB_REPO = "dzulhelmynazri/dzulhel.my";
 export const SOURCE_CODE_GITHUB_URL =
-  "https://github.com/dzulhelmynazri/dzulhel.myy";
+  "https://github.com/dzulhelmynazri/dzulhel.my";
 
 export const UTM_PARAMS = {
   utm_source: "dzulhel.my",
