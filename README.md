@@ -14,7 +14,7 @@ Check out the live site: [dzulhel.my](https://dzulhel.my)
 
 ### Stack
 
-- Next.js 15
+- Next.js 16
 - Tailwind CSS v4
 - shadcn/ui
 
