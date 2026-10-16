@@ -12,19 +12,10 @@
     "components.json": "../../icons/shadcn"
   },
   "tailwindCSS.experimental.classRegex": [
-    [
-      "cva\\(((?:[^()]|\\([^()]*\\))*)\\)",
-      "[\"'`]?([^\"'`]+)[\"'`]?"
-    ],
-    [
-      "cn\\(((?:[^()]|\\([^()]*\\))*)\\)",
-      "(?:'|\"|`)([^']*)(?:'|\"|`)"
-    ]
+    ["cva\\(((?:[^()]|\\([^()]*\\))*)\\)", "[\"'`]?([^\"'`]+)[\"'`]?"],
+    ["cn\\(((?:[^()]|\\([^()]*\\))*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ],
-  "tailwindCSS.classFunctions": [
-    "cva",
-    "cn"
-  ],
+  "tailwindCSS.classFunctions": ["cva", "cn"],
   "files.associations": {
     "*.css": "tailwindcss"
   },
@@ -37,5 +28,5 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
